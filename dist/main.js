@@ -1,1 +1,1 @@
-alert("ok");
+document.querySelector("[data-lists]");
