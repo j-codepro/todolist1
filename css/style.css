@@ -136,7 +136,6 @@ form {
     --spacer: 2rem;
 
     grid-area: active;
-    background: var(--clr-light);
     color: var(--clr-dark);
     border-radius: 5px;
 }
@@ -163,6 +162,9 @@ form {
 .todo-body {
     padding: var(--spacer);
     position: relative;
+    background: var(--clr-light);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .new-task-creator .create {
