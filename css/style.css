@@ -1,6 +1,6 @@
 :root {
     --clr-primary: rgb(54, 112, 199);
-    --clr-light: #f4f4f4;
+    --clr-light: red;
     --clr-dark: #333;
     --clr-warning: red;
     height: 100%; /* make the linear-gradient not repeat */
