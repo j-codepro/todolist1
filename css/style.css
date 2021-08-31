@@ -138,6 +138,7 @@ form {
     grid-area: active;
     color: var(--clr-dark);
     border-radius: 5px;
+    margin-bottom: 70px;
 }
 
 .todo-header {
@@ -181,6 +182,7 @@ form {
     display: inline-flex;
     align-items: center;
     position: relative;
+    word-break: break-word;
 }
 
 .task {
@@ -268,6 +270,49 @@ form {
     color: var(--clr-warning);
 }
 
+@media screen and (max-width: 880px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .todo-list {
+        padding: 20px;
+    }
+
+    .new.task {
+        max-width: 315px;
+        min-width: 100px;
+    }
+
+    .all-tasks {
+        padding-left: 22px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .delete-stuff {
+        flex-direction: column;
+        bottom: -80px;
+    }
+
+    .btn.delete {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .new.task {
+        font-size: 1.2rem;
+    }
+
+    .todo-list {
+        padding: 10px;
+        margin-top: 8px;
+    }
+}
+ 
 
 
 
