@@ -1,6 +1,6 @@
 # todolist1
 
-[Live Demo](https://j-codepro.github.io/todolist1/)
+[Live Demo](https://jeremy-mairey.github.io/todolist1/)
 
 Création d'une todo list avec JS et différentes fonctionnalités :
 - ajouter/supprimer une liste
